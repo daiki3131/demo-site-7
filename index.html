@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MomentCard</title>
+  <!-- google_font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/serch.css">
+  <link rel="stylesheet" href="css/hamburger.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header_top">
+      <div class="container">
+        <div class="left">
+          <h1><a class="logo_wrap" href="#">
+            <img class="logo" src="images/logo.jpg" alt="ロゴ">
+            <span class="siteName">Moment Card</span>
+          </a></h1>
+        </div>
+        <div class="right pc">
+          <ul class="navTopList">
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+          <form method="get" action="#" class="search_container">
+            <input type="text" size="25" placeholder="サイト内検索">
+            <input type="submit" value="&#xf002">
+          </form>
+        </div>
+        <div class="right sp">
+          <!-- ハンバーガーコンテンツ -->
+          <div class="hamburger_content">
+            <div class="hamburger_menu"><!-- ハンバーガーボタン -->
+              <div class="hamburger_btn">              
+                <span class="js_bar_color bar bar_top"></span>
+                <span class="js_bar_color bar bar_middle"></span>
+                <span class="js_bar_color bar bar_bottom"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav_wrapper">
+      <!-- ナビゲーションメニュー -->
+      <nav class="nav_wrap">
+        <ul class="nav_list">
+          <!-- (ドロップダウン) -->
+          <li><a href="#">トップページ</a></li>
+          <li><a href="#credit">クレジットカード</a></li>
+          <li><a href="#campaign">ポイント</a></li>
+          <li><a href="#creditUse">カードローン・キャッシング</a></li>
+          <li><a href="#creditUse">キャンペーン</a></li>
+          <li><a href="#creditUse">会員ページ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="gNav pc">
+      <ul class="list">
+        <li><a href="#">
+          <span class="txt top">トップページ</span>
+        </a></li>
+        <li><a href="#">
+          <span class="txt">クレジットカード</span>
+          <span class="arrow"></span>
+        </a></li>
+        <li><a href="#">
+          <span class="txt">ポイント</span>
+          <span class="arrow"></span>
+        </a></li>
+        <li><a href="#">
+          <span class="txt">カードローン・キャッシング</span>
+          <span class="arrow"></span>
+        </a></li>
+        <li><a href="#">
+          <span class="txt">キャンペーン</span>
+          <span class="arrow"></span>
+        </a></li>
+        <li><a href="#">
+          <span class="txt">会員ページ</span>
+          <span class="arrow"></span>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="article">
+      <section id="mainVue" class="mainVue">
+        <div class="container">
+          <div class="flex_box row">
+            <div class="left col-md-6">
+              <h2>
+                モーメントカード入会で<br>
+                <span class="money">5,000</span><span class="en">円分</span><br>
+                ポイントプレゼント
+              </h2>
+              <div class="btn_wrap">
+                <a class="mainBtn" href="#">カードのお申込みはこちら</a>
+              </div>
+            </div>
+            <div class="right col-md-6">
+              <div class="img_wrap"><img src="images/ky-moment.png" alt="モーメントカード"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="campaign" class="campaign">
+        <div class="container">
+          <h3>キャンペーン</h3>
+          <div class="content">
+            <p class="left">モーメントカード新規ご入会</p>
+            <p class="right">モーメントカード会員さま向け</p>
+          </div>
+          <div class="flex_box row">
+            <div class="box1 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/banner1.jpg" alt="バナー"></div>
+              <p class="txt">いつでもポイント2倍</p>
+            </div>
+            <div class="box2 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/banner2.jpg" alt="バナー"></div>
+              <p class="txt">振込手数料無料</p>
+            </div>
+            <div class="box3 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/banner3.jpg" alt="バナー"></div>
+              <p class="txt">ポイントクラブ</p>
+            </div>
+            <div class="box4 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/banner4.jpg" alt="バナー"></div>
+              <p class="txt">ポイント山分けキャンペーン！</p>
+            </div>
+          </div>
+          <div class="btn_wrap">
+            <a class="btn" href="#">キャンペーン一覧</a>
+          </div>
+        </div>
+      </section>
+      <section id="credit" class="credit">
+        <div class="container">
+          <h3>おすすめのクレジットカード</h3>
+          <div class="flex_box row">
+            <div class="box1 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/moment.jpg" alt="モーメントカード"></div>
+              <p class="txt">モーメント</p>
+            </div>
+            <div class="box2 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/moment-gold.jpg" alt="モーメントゴールド"></div>
+              <p class="txt">モーメントゴールドカード</p>
+            </div>
+            <div class="box3 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/moment-business.jpg" alt="モーメントビジネスカード"></div>
+              <p class="txt">モーメントビジネスカード</p>
+            </div>
+            <div class="box4 cardBox col-md-3">
+              <div class="img_wrap"><img src="images/moment-etc.jpg" alt="モーメントETCカード"></div>
+              <p class="txt">モーメントETCカード</p>
+            </div>
+          </div>
+          <div class="btn_wrap">
+            <a class="btn" href="#">カード一覧</a>
+          </div>          
+        </div>
+      </section>
+      <section id="creditUse" class="creditUse">
+        <div class="container">
+          <div class="flex_box row">
+            <div class="box1 cardBox col-md-6 col-lg-3">
+              <div class="img_wrap"><img src="images/card-edit.jpg" alt="カードを作る"></div>
+              <p class="title">カードを作る</p>
+              <ul class="list">
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">カード一覧</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">おとくなカード特典</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">ビジネスカード</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">ETCカード</span>
+                </a></li>
+              </ul>
+            </div>
+            <div class="box2 cardBox col-md-6 col-lg-3">
+              <div class="img_wrap"><img src="images/card-use.jpg" alt="カードを使う"></div>
+              <p class="title">カードをつかう</p>
+              <ul class="list">
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">カードのご利用方法</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">リボ払い・増額設定</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">公共料金のお支払い</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">キャッシング</span>
+                </a></li>
+              </ul>
+            </div>
+            <div class="box3 cardBox col-md-6 col-lg-3">
+              <div class="img_wrap"><img src="images/card-borrow.jpg" alt="かりる"></div>
+              <p class="title">かりる</p>
+              <ul class="list">
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">カードローンBIG</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">住宅ローン</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">Webマイカーローン</span>
+                </a></li>
+              </ul>
+            </div>
+            <div class="box4 cardBox col-md-6 col-lg-3">
+              <div class="img_wrap"><img src="images/card-prepare.jpg" alt="そなえる"></div>
+              <p class="title">そなえる</p>
+              <ul class="list">
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">生命保険</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">損害保険</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">自動車保険</span>
+                </a></li>
+                <li><a href="#">
+                  <span class="arrow"></span>
+                  <span class="txt">家財保険</span>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="creditWarning" class="creditWarning">
+        <div class="container">
+          <ul class="list">
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span class="txt">カード利用時にお取引を保留させていただく場合がございます。</span>
+            </li>
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span class="txt">お引越し等で住所が変わられた際には、お早めに住所変更の届出をお願いいたします。</span>
+            </li>
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span class="txt">お客さまの情報を盗み取ろうとするコンピューターウイルスにご注意ください。</span>
+            </li>
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span class="txt">不正にポップアップ画面を表示させて、お客さま情報を盗み取ろうとする犯罪にご注意ください。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="news" class="news">
+        <div class="container">
+          <h3>お知らせ</h3>
+          <div class="content">
+            <p class="left">すべてのお知らせ</p>
+            <p class="center">ニュースリリース</p>
+            <p class="right">安心・安全にご利用いただくために</p>
+          </div>
+          <ul class="list">
+            <li>
+              <span class="day">2021年3月22日</span>
+              <a href="#">カード利用時にお取引を保留させていただく場合がございます。</a>
+            </li>
+            <li>
+              <span class="day">2021年3月21日</span>
+              <a href="#">お引越し等で住所が変わられた際には、お早めに住所変更の届出をお願いいたします。</a>
+            </li>
+            <li>
+              <span class="day">2021年3月20日</span>
+              <a href="#">お客さまの情報を盗み取ろうとするコンピューターウイルスにご注意ください。</a>
+            </li>
+            <li>
+              <span class="day">2021年3月19日</span>
+              <a href="#">不正にポップアップ画面を表示させて、お客さま情報を盗み取ろうとする犯罪にご注意ください。</a>
+            </li>
+            <li>
+              <span class="day">2021年3月18日</span>
+              <a href="#">システムメンテナンス実施に伴う一部券面の審査時間の変更について</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_top">
+      <div class="container">
+        <div class="flex_box row">
+          <div class="box1 box col-md-6 col-xl-3">
+            <ul class="list">
+              <li class="title"><a href="#">クレジットカード</a></li>
+              <li><a href="#">モーメントカードのメリット</a></li>
+              <li><a href="#">機能・サービス</a></li>
+              <li><a href="#">カード一覧</a></li>
+              <li><a href="#">キャッシング</a></li>
+              <li><a href="#">リボ払い</a></li>
+            </ul>
+          </div>
+          <div class="box2 box col-md-6 col-xl-3">
+            <ul class="list">
+              <li class="title"><a href="#">ポイント</a></li>
+              <li><a href="#">モーメントポイントとは？</a></li>
+              <li><a href="#">ポイントをためる</a></li>
+              <li><a href="#">ポイントを使う</a></li>
+            </ul>
+          </div>
+          <div class="box3 box col-md-6 col-xl-3">
+            <ul class="list">
+              <li class="title"><a href="#">カードローン・キャッシング</a></li>
+              <li><a href="#">銀行</a></li>
+              <li><a href="#">保険</a></li>
+              <li><a href="#">住宅ローン</a></li>
+              <li><a href="#">各種ローン</a></li>
+              <li><a href="#">カードローン申し込み</a></li>
+            </ul>
+          </div>
+          <div class="box4 box col-md-6 col-xl-3">
+            <ul class="list">
+              <li class="title"><a href="#">キャンペーン</a></li>
+              <li><a href="#">モーメントカード新規申し込み</a></li>
+              <li><a href="#">モーメントカード会員さま向け</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <nav class="footerNav">
+        <ul class="list">
+          <li><a href="#">よくある質問</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">セキュリティポリシー</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+          <li><a href="#">ご利用掲載について</a></li>
+          <li><a href="#">サイトマップ</a></li>
+          <li><a href="#">企業情報</a></li>
+        </ul>
+      </nav>
+      <small class="copyright">Copyright 2019 (c) Moment card. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
